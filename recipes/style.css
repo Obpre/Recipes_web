@@ -1,0 +1,107 @@
+html{min-height: 100vh;
+   
+}
+
+title {
+    background-color: red;
+  }
+
+
+body
+{ 
+    
+    display: grid;
+  
+}
+
+
+h1
+{
+    color :rgb(47, 36, 212);
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+h2
+{ 
+    color :rgb(47, 36, 212);
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+
+}
+h3{
+    color :rgb(118, 129, 52);
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+ul{
+
+    align-items: center;
+
+}
+
+img{
+
+    height: 300px;
+    width: 350px
+
+}
+
+
+#top {
+
+    margin: 0.5vw 0;
+    width: 17vw;
+    display: block;
+    transform: translateX(1.5%);
+
+}
+
+#left
+{
+    
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+
+#topleft
+{ margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: 0.5s;
+pointer-events: none;
+left: -30vw;
+position: relative;
+opacity: 0;
+animation: alternate-reverse;
+animation-delay: 2.8s;
+}
+
+div
+{
+    width: 100%;
+    overflow:auto;
+    
+}
+
+.mycontainer div
+{
+    width: 30%;
+    float: right;
+}
+
+
+
+
+
+
